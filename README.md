@@ -52,6 +52,6 @@ Uma jornada enriquecedora no universo do desenvolvimento React com o projeto Org
 [Vinicios Neves](https://github.com/viniciosneves)
 <br>
 <br>
-### 🚀 Valeu pela passada no meu Git. Se curtiu, bora trocar ideias! Dá um [`Follow`](https://github.com/Rodolfo-Sampaio) que tô sempre por aqui.  😎👩‍💻
+#### Obrigado por visitar meu Git. Se você der um [`Follow`](https://github.com/Rodolfo-Sampaio), ficarei feliz em retribuir!🚀💻
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=6378f7&height=120&section=footer"/>
