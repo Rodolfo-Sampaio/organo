@@ -1,0 +1,25 @@
+.botao-random-face {
+   background-color: #6278F7;
+   border-radius: 10px;
+   font-weight: 500;
+   font-size: 18px;
+   padding: .7rem;
+   border: none;
+   cursor: pointer;
+   color: #FFF;
+   margin: 0 0 32px;
+   align-self: flex-end;
+}
+
+.botao-random-face:hover {
+   color: #95FFD4;
+}
+
+@media (max-width: 420px) {
+   .botao-random-face {
+      font-size: 0.8rem;
+      padding: .5rem;
+      margin: 0 0 .5rem;
+   }
+}
+

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Botao from '../Botao';
+import BotaoRandomFace from '../BotaoRandomFace';
 import CampoTexto from '../CampoTexto'
 import ListaSuspensa from '../ListaSuspensa';
 import './Formulario.css'
@@ -25,6 +26,10 @@ const Formulario = (props) => {
       setTime('')
    }
 
+   const gerarRandomFace = () => {
+      setImagem('https://thispersondoesnotexist.com/')
+   }
+
    return (
       <section className="formulario">
          <form onSubmit={aoSalvar}>
@@ -42,7 +47,6 @@ const Formulario = (props) => {
                placeholder="Digite seu cargo"
                valor={cargo}
                aoAlterado={valor => setCargo(valor)}
-
             />
             <CampoTexto
                label="Imagem"
@@ -50,6 +54,9 @@ const Formulario = (props) => {
                valor={imagem}
                aoAlterado={valor => setImagem(valor)}
             />
+            
+            <BotaoRandomFace  onClick={gerarRandomFace} />
+
             <ListaSuspensa
                obrigatorio={true}
                label="Time"

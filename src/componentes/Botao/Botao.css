@@ -8,9 +8,19 @@
    cursor: pointer;
    color: #FFF;
    margin: 32px 0;
+   width: 40%;
 }
 
 .botao:hover {
    color: #95FFD4;
+}
+
+@media (max-width: 420px) {
+   .botao {
+      font-size: 1.3rem;
+      padding: 1rem;
+      margin: 1.5rem 0 .5rem;
+      width: 50%;
+   }
 }
 
