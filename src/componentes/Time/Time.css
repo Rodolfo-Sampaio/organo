@@ -16,3 +16,17 @@
    margin-top: 32px;
    flex-wrap: wrap;
 }
+
+@media (max-width: 420px) { 
+   .time {
+      padding: 2rem 1rem;
+   }
+
+   .time h3 {
+      margin: 0.8rem;
+   }
+
+   .time .colaboradores {
+      gap: 1rem;
+   }
+}

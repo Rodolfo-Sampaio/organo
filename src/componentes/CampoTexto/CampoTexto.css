@@ -17,3 +17,19 @@
    padding: 24px;
    box-sizing: border-box;
 }
+
+@media (max-width: 420px) {
+   .campo-texto {
+      margin: 0.7rem 0;
+   }
+
+   .campo-texto label {
+      font-size: 1.2rem;
+      font-weight: 500;
+   }
+
+   .campo-texto input  {
+      font-size: 1.1rem;
+      padding: .8rem;
+   }
+}
